@@ -66,4 +66,4 @@ class LoginForm(FlaskForm):
 
 
 class PostForm(FlaskForm):
-    content = TextAreaField('what\'s on your mind', validators=[DataRequired()])
+    content = TextAreaField("what\'s on your mind", validators=[DataRequired()])

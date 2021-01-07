@@ -9,7 +9,7 @@ HOST = '127.0.0.1'
 PORT = 8080
 
 app = Flask(__name__)
-app.secret_key = "@$#@$DWGW@R@RGFHGFGE@$R@$@#$@#$@GWDFGWFRR"
+app.secret_key = "YOURSECRETKEYMAYNEEDTOSET_IN_ENVIRONMENT@$#@$DWGW@R@RGFHGFGE@$R@$@#$@#$@GWDFGWFRR"
 login_manager = LoginManager()
 login_manager.init_app(app)  # pay attention to our views
 login_manager.login_view = 'login'
